@@ -14,7 +14,7 @@ import {
 import EventEmitter from 'eventemitter3';
 import bs58 from 'bs58';
 import { v4 as uuidv4 } from 'uuid';
-import { isLegacyTransactionInstance, serializeTransaction } from "./utils";
+import { isLegacyTransactionInstance, serializeTransaction } from './utils';
 import { detectProvider } from './detectProvider';
 import {
   SolanaSignAndSendTransactionInput,
